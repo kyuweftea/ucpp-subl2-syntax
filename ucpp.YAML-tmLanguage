@@ -6,6 +6,7 @@ fileTypes: [ucpp, uh]
 uuid: 6d5872a5-0367-4387-af71-8f4102f198f0
 
 patterns:
+- include: "#u_special_block"
 - include: source.c++
 
 - comment: ucppSyncObjects
@@ -75,3 +76,28 @@ patterns:
 - comment: ucppPthread
   match: \b(uPthreadable)\b
   name: storage.type.pthread.ucpp
+
+repository:
+  u_special_block:
+    patterns:
+    - begin: \b(class|struct|_Coroutine|_Monitor|_PeriodicTask|_RealTimeTask|_SporadicTask|_Task)\s+([_A-Za-z][_A-Za-z0-9]*\b)
+      beginCaptures:
+        '1': {name: storage.type.ucpp}
+        '2': {name: entity.name.type.ucpp}
+      end: (?<=\})|(?=(;|,|\(|\)|>|\[|\]))
+      name: meta.class-struct-block.ucpp
+      patterns:
+      - include: "#angle-brackets"
+      - begin: (\{)
+        beginCaptures:
+          '1': {name: punctuation.definition.scope.ucpp}
+        end: (\})(\s*\n)?
+        endCaptures:
+          '1': {name: punctuation.definition.invalid.ucpp}
+          '2': {name: invalid.illegal.you-forgot-semicolon.ucpp}
+        patterns:
+        - include: "#u_special_block"
+        - include: "#special_block"
+        - include: "#constructor"
+        - include: $base
+      - include: $base
