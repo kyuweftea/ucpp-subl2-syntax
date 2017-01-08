@@ -29,6 +29,6 @@ Now it works with `.cc` and `.h` files too! You can always change it back by res
    ```
 3. Open Sublime Text 2 and navigate to `Preferences > Browse Packages...`
 4. Copy `ucpp.YAML-tmLanguage` from the repository into the `Packages/User` folder
-5. Open the `Packages/User/ucpp.YAML-tmLanguage` file in Sublime Text
-6. Press `F7` to build. A `.tmLanguage` file will be created in the same folder. (Ensure that `Tools > Build System` is set to `Automatic`)
-7. Edit and Rebuild as desired :)
+5. Open the `Packages/User/ucpp.YAML-tmLanguage` file in Sublime
+6. Press `F7` to build. A `.tmLanguage` file will be created in the same folder, which allows Sublime to highlight &micro;C++ source code for `.ucpp` and `.uh` files. (Ensure that `Tools > Build System` is set to `Automatic`)
+7. Edit `ucpp.YAML-tmLanguage` and Rebuild as desired :)
