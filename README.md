@@ -13,7 +13,7 @@ Note: this builds off of Sublime's default C++ highlighting, so make sure you ha
    git clone https://github.com/poduncan/ucpp-subl2-syntax.git
    ```
 
-Opening any `.ucpp` or `.uh` file will automatically highlight &micro;C++ source code. If you want Sublime to highlight &micro;C++ source code in `.cc` and `.h` files as well, refer to [this section](#optional-set-up-highlighting-for-cc-and-h-files).
+Opening any `.ucpp` or `.uh` file will automatically highlight &micro;C++ source code. If you want Sublime to highlight &micro;C++ source code in `.cc` and `.h` files as well, refer to the [(Optional) Set Up Highlighting for `.cc` and `.h` Files](#optional-set-up-highlighting-for-cc-and-h-files) section.
 
 #### (Optional) Rebuilding the `.tmLanguage` File
 You only need to do this if you want to contribute to this project, or to make it easier to make changes to the existing grammar (editing YAML is easier than XML).
