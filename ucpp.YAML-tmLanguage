@@ -18,11 +18,11 @@ patterns:
   name: keyword.control.statement.ucpp
 
 - comment: ucppConcurrentStructure
-  match: \b(_Coroutine|_Monitor|_PeriodicTask|_RealTimeTask|_SporadicTask|_Task)\b
+  match: \b(_Coroutine|_Monitor|_PeriodicTask|_RealTimeTask|_SporadicTask|_Task|_Event)\b
   name: storage.type.concurrent.ucpp
 
 - comment: ucppException
-  match: \b(_At|_CatchResume|_Disable|_Enable|_Event|_Resume|_Throw)\b
+  match: \b(_At|_CatchResume|_Disable|_Enable|_Resume|_Throw)\b
   name: keyword.control.exception.ucpp
 
 - comment: ucppMutexModifier

@@ -39,7 +39,7 @@
 			<key>comment</key>
 			<string>ucppConcurrentStructure</string>
 			<key>match</key>
-			<string>\b(_Coroutine|_Monitor|_PeriodicTask|_RealTimeTask|_SporadicTask|_Task)\b</string>
+			<string>\b(_Coroutine|_Monitor|_PeriodicTask|_RealTimeTask|_SporadicTask|_Task|_Event)\b</string>
 			<key>name</key>
 			<string>storage.type.concurrent.ucpp</string>
 		</dict>
@@ -47,7 +47,7 @@
 			<key>comment</key>
 			<string>ucppException</string>
 			<key>match</key>
-			<string>\b(_At|_CatchResume|_Disable|_Enable|_Event|_Resume|_Throw)\b</string>
+			<string>\b(_At|_CatchResume|_Disable|_Enable|_Resume|_Throw)\b</string>
 			<key>name</key>
 			<string>keyword.control.exception.ucpp</string>
 		</dict>
