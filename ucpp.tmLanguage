@@ -68,7 +68,7 @@
 			<array>
 				<dict>
 					<key>begin</key>
-					<string>\b(class|struct|_Coroutine|_Monitor|_Cormonitor|_PeriodicTask|_RealTimeTask|_SporadicTask|_Task)\s+([_A-Za-z][_A-Za-z0-9]*\b)</string>
+					<string>\b(class|struct|_Coroutine|_Monitor|_Cormonitor|_PeriodicTask|_RealTimeTask|_SporadicTask|_Task|_Event)\s+([_A-Za-z][_A-Za-z0-9]*\b)</string>
 					<key>beginCaptures</key>
 					<dict>
 						<key>1</key>
