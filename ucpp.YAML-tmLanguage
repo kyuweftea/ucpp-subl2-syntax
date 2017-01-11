@@ -18,11 +18,11 @@ patterns:
   name: keyword.control.statement.ucpp
 
 - comment: ucppConcurrentStructure
-  match: \b(_Coroutine|_Monitor|_PeriodicTask|_RealTimeTask|_SporadicTask|_Task|_Event)\b
+  match: \b(_Coroutine|_Monitor|_Cormonitor|_PeriodicTask|_RealTimeTask|_SporadicTask|_Task|_Event)\b
   name: storage.type.concurrent.ucpp
 
 - comment: ucppException
-  match: \b(_At|_CatchResume|_Disable|_Enable|_Resume|_Throw)\b
+  match: \b(_At|_CatchResume|_Finally|_Disable|_Enable|_Resume|_Throw)\b
   name: keyword.control.exception.ucpp
 
 - comment: ucppMutexModifier
@@ -33,7 +33,7 @@ repository:
   u_special_block:
 
     patterns:
-    - begin: \b(class|struct|_Coroutine|_Monitor|_PeriodicTask|_RealTimeTask|_SporadicTask|_Task)\s+([_A-Za-z][_A-Za-z0-9]*\b)
+    - begin: \b(class|struct|_Coroutine|_Monitor|_Cormonitor|_PeriodicTask|_RealTimeTask|_SporadicTask|_Task)\s+([_A-Za-z][_A-Za-z0-9]*\b)
       beginCaptures:
         '1': {name: storage.type.ucpp}
         '2': {name: entity.name.type.ucpp}
