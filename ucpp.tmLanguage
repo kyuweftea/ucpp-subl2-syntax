@@ -59,14 +59,6 @@
 			<key>name</key>
 			<string>storage.modifier.mutex.ucpp</string>
 		</dict>
-		<dict>
-			<key>comment</key>
-			<string>ucppPreProc</string>
-			<key>match</key>
-			<string>\b(__U_CPLUSPLUS_MINOR__|__U_CPLUSPLUS_PATCH__|__U_CPLUSPLUS__|__U_DEBUG__|__U_MULTI__|__U_VERIFY__|__U_YIELD__)\b</string>
-			<key>name</key>
-			<string>meta.preprocessor.ucpp</string>
-		</dict>
 	</array>
 	<key>repository</key>
 	<dict>

@@ -29,10 +29,6 @@ patterns:
   match: \b(_Mutex|_Nomutex)\b
   name: storage.modifier.mutex.ucpp
 
-- comment: ucppPreProc
-  match: \b(__U_CPLUSPLUS_MINOR__|__U_CPLUSPLUS_PATCH__|__U_CPLUSPLUS__|__U_DEBUG__|__U_MULTI__|__U_VERIFY__|__U_YIELD__)\b
-  name: meta.preprocessor.ucpp
-
 repository:
   u_special_block:
 
