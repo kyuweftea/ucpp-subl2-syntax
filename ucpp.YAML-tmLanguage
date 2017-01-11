@@ -9,10 +9,6 @@ patterns:
 - include: "#u_special_block"
 - include: source.c++
 
-- comment: ucppSyncObjects
-  match: \b(uBarrier|uCondLock|uCondition|uLock|uOwnerLock|uSemaphore|uSpinLock)\b
-  name: storage.type.sync.ucpp
-
 - comment: ucppConditionals
   match: \b(_When|and|or)\b
   name: keyword.control.conditional.ucpp
@@ -33,45 +29,9 @@ patterns:
   match: \b(_Mutex|_Nomutex)\b
   name: storage.modifier.mutex.ucpp
 
-- comment: ucppFutureObjects
-  match: \b(Future_ESM|Future_ISM|uWaitQueue_ESM|uWaitQueue_ISM)\b
-  name: storage.type.future.ucpp
-
-- comment: ucppCancellation
-  match: \b(uCancellation|uDisableCancel|uEnableCancel)\b
-  name: storage.type.cancellation.ucpp
-
-- comment: ucppMiscObjects
-  match: \b(uExecutor|uContext|uFloatingPointContext)\b
-  name: storage.type.misc.ucpp
-
-- comment: ucppKernelObjects
-  match: \b(uCluster|uDeadlineMonotonic|uDefaultPreemption|uDefaultSpin|uDefaultStackSize|uPid_t|uProcessor|uProcessorSeq|uRealTimeCluster)\b
-  name: storage.type.kernel.ucpp
-
-- comment: ucppBaseObjects
-  match: \b(uBaseCoroutine|uBaseEvent|uBaseFuture|uBaseProcessor|uBaseSchedule|uBaseTask|uBaseTaskDL|uBaseTaskSeq|uPeriodicBaseTask|uRealTimeBaseTask|uSporadicBaseTask)\b
-  name: storage.type.base.ucpp
-
 - comment: ucppPreProc
   match: \b(__U_CPLUSPLUS_MINOR__|__U_CPLUSPLUS_PATCH__|__U_CPLUSPLUS__|__U_DEBUG__|__U_MULTI__|__U_VERIFY__|__U_YIELD__)\b
   name: meta.preprocessor.ucpp
-
-- comment: ucppDataStructure
-  match: \b(uColable|uQueue|uQueueIter|uSeqIter|uSeqIterRev|uSeqable|uSequence|uStack|uStackIter)\b
-  name: storage.type.struct.ucpp
-
-- comment: ucppTimeObjects
-  match: \b(uClock|uDuration|uTime|)\b
-  name: storage.type.time.ucpp
-
-- comment: ucppUnixObjects
-  match: \b(uFile|uFileIO|uSocket|uSocketAccept|uSocketClient|uSocketServer)\b
-  name: storage.type.unix.ucpp
-
-- comment: ucppPthread
-  match: \b(uPthreadable)\b
-  name: storage.type.pthread.ucpp
 
 repository:
   u_special_block:

@@ -21,14 +21,6 @@
 		</dict>
 		<dict>
 			<key>comment</key>
-			<string>ucppSyncObjects</string>
-			<key>match</key>
-			<string>\b(uBarrier|uCondLock|uCondition|uLock|uOwnerLock|uSemaphore|uSpinLock)\b</string>
-			<key>name</key>
-			<string>storage.type.sync.ucpp</string>
-		</dict>
-		<dict>
-			<key>comment</key>
 			<string>ucppConditionals</string>
 			<key>match</key>
 			<string>\b(_When|and|or)\b</string>
@@ -69,83 +61,11 @@
 		</dict>
 		<dict>
 			<key>comment</key>
-			<string>ucppFutureObjects</string>
-			<key>match</key>
-			<string>\b(Future_ESM|Future_ISM|uWaitQueue_ESM|uWaitQueue_ISM)\b</string>
-			<key>name</key>
-			<string>storage.type.future.ucpp</string>
-		</dict>
-		<dict>
-			<key>comment</key>
-			<string>ucppCancellation</string>
-			<key>match</key>
-			<string>\b(uCancellation|uDisableCancel|uEnableCancel)\b</string>
-			<key>name</key>
-			<string>storage.type.cancellation.ucpp</string>
-		</dict>
-		<dict>
-			<key>comment</key>
-			<string>ucppMiscObjects</string>
-			<key>match</key>
-			<string>\b(uExecutor|uContext|uFloatingPointContext)\b</string>
-			<key>name</key>
-			<string>storage.type.misc.ucpp</string>
-		</dict>
-		<dict>
-			<key>comment</key>
-			<string>ucppKernelObjects</string>
-			<key>match</key>
-			<string>\b(uCluster|uDeadlineMonotonic|uDefaultPreemption|uDefaultSpin|uDefaultStackSize|uPid_t|uProcessor|uProcessorSeq|uRealTimeCluster)\b</string>
-			<key>name</key>
-			<string>storage.type.kernel.ucpp</string>
-		</dict>
-		<dict>
-			<key>comment</key>
-			<string>ucppBaseObjects</string>
-			<key>match</key>
-			<string>\b(uBaseCoroutine|uBaseEvent|uBaseFuture|uBaseProcessor|uBaseSchedule|uBaseTask|uBaseTaskDL|uBaseTaskSeq|uPeriodicBaseTask|uRealTimeBaseTask|uSporadicBaseTask)\b</string>
-			<key>name</key>
-			<string>storage.type.base.ucpp</string>
-		</dict>
-		<dict>
-			<key>comment</key>
 			<string>ucppPreProc</string>
 			<key>match</key>
 			<string>\b(__U_CPLUSPLUS_MINOR__|__U_CPLUSPLUS_PATCH__|__U_CPLUSPLUS__|__U_DEBUG__|__U_MULTI__|__U_VERIFY__|__U_YIELD__)\b</string>
 			<key>name</key>
 			<string>meta.preprocessor.ucpp</string>
-		</dict>
-		<dict>
-			<key>comment</key>
-			<string>ucppDataStructure</string>
-			<key>match</key>
-			<string>\b(uColable|uQueue|uQueueIter|uSeqIter|uSeqIterRev|uSeqable|uSequence|uStack|uStackIter)\b</string>
-			<key>name</key>
-			<string>storage.type.struct.ucpp</string>
-		</dict>
-		<dict>
-			<key>comment</key>
-			<string>ucppTimeObjects</string>
-			<key>match</key>
-			<string>\b(uClock|uDuration|uTime|)\b</string>
-			<key>name</key>
-			<string>storage.type.time.ucpp</string>
-		</dict>
-		<dict>
-			<key>comment</key>
-			<string>ucppUnixObjects</string>
-			<key>match</key>
-			<string>\b(uFile|uFileIO|uSocket|uSocketAccept|uSocketClient|uSocketServer)\b</string>
-			<key>name</key>
-			<string>storage.type.unix.ucpp</string>
-		</dict>
-		<dict>
-			<key>comment</key>
-			<string>ucppPthread</string>
-			<key>match</key>
-			<string>\b(uPthreadable)\b</string>
-			<key>name</key>
-			<string>storage.type.pthread.ucpp</string>
 		</dict>
 	</array>
 	<key>repository</key>
