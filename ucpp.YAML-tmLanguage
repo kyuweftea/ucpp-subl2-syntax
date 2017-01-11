@@ -14,7 +14,7 @@ patterns:
   name: keyword.control.conditional.ucpp
 
 - comment: ucppPrimitiveStatement
-  match: \b(_Abort|_Accept|_Select|_Timeout)\b
+  match: \b(_Abort|_Accept|_Select|_Timeout|_Else)\b
   name: keyword.control.statement.ucpp
 
 - comment: ucppConcurrentStructure

@@ -31,7 +31,7 @@
 			<key>comment</key>
 			<string>ucppPrimitiveStatement</string>
 			<key>match</key>
-			<string>\b(_Abort|_Accept|_Select|_Timeout)\b</string>
+			<string>\b(_Abort|_Accept|_Select|_Timeout|_Else)\b</string>
 			<key>name</key>
 			<string>keyword.control.statement.ucpp</string>
 		</dict>
