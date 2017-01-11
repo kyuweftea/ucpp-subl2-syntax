@@ -53,10 +53,6 @@ patterns:
   match: \b(uBaseCoroutine|uBaseEvent|uBaseFuture|uBaseProcessor|uBaseSchedule|uBaseTask|uBaseTaskDL|uBaseTaskSeq|uPeriodicBaseTask|uRealTimeBaseTask|uSporadicBaseTask)\b
   name: storage.type.base.ucpp
 
-- comment: ucppThisObjects
-  match: \b(uThisCluster|uThisCoroutine|uThisProcessor|uThisTask)\b
-  name: variable.language.this.ucpp
-
 - comment: ucppPreProc
   match: \b(__U_CPLUSPLUS_MINOR__|__U_CPLUSPLUS_PATCH__|__U_CPLUSPLUS__|__U_DEBUG__|__U_MULTI__|__U_VERIFY__|__U_YIELD__)\b
   name: meta.preprocessor.ucpp
