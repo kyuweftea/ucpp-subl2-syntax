@@ -1,5 +1,5 @@
 # &micro;C++ Syntax Highlighting for Sublime Text 2
-Based off of [&micro;C++ Syntax Highlighting for Vim](https://github.com/flxf/uCpp.vim).
+Inspired by [&micro;C++ Syntax Highlighting for Vim](https://github.com/flxf/uCpp.vim).
 
 Syntax definitions for &micro;C++ source code. Automatically highlights `.ucpp` and `.uh` files. (You can also tell Sublime to highlight `.cc` and `.h` files.)
 
@@ -7,7 +7,7 @@ Syntax definitions for &micro;C++ source code. Automatically highlights `.ucpp` 
   * [Installation](#installation)
       * [Method 1: Clone this Repository](#method-1-clone-this-repository)
           * [(Optional) Rebuilding the `.tmLanguage` File](#optional-rebuilding-the-tmlanguage-file)
-      * [Method 2: Download the Grammar File](#method-2-download-the-grammar-file)
+      * [Method 2: Download the Grammar File](#method-2-download)
       * [(Optional) Set Up Highlighting for `.cc` and `.h` Files](#optional-set-up-highlighting-for-cc-and-h-files)
   * [Usage](#usage)
 
@@ -31,11 +31,10 @@ You only need to do this if you want to contribute to this project, or to make i
 3. Press `F7` to build. The `.tmLanguage` file will be created/overwritten. Sublime refer to this file when highlighting &micro;C++ source code in `.ucpp` and `.uh` files. (Ensure that `Tools > Build System` is set to `Automatic`)
 4. Edit and Rebuild as desired
 
-## Method 2: Download the Grammar File
-1. Download and unzip the [latest release](https://github.com/poduncan/ucpp-subl2-syntax/releases/download/v0.2.0/ucpp.tmLanguage.zip)
+## Method 2: Download
+1. Download and unzip the [latest release](https://github.com/poduncan/ucpp-subl2-syntax/releases/download/v0.3.0/uCpp.zip)
 2. Open Sublime and navigate to `Preferences > Browse Packages...`. Your Sublime Packages folder should open
-3. Create a new folder called `uC++` inside the `Packages` folder
-4. Move the unzipped `ucpp.tmLanguage` file into the new `Packages/uC++` folder
+4. Move the unzipped `uCpp` folder into the `Packages` folder
 
 ## (Optional) Set Up Highlighting for `.cc` and `.h` Files
 
