@@ -1,5 +1,4 @@
 # &micro;C++ Syntax Highlighting for Sublime Text 2
-Inspired by [&micro;C++ Syntax Highlighting for Vim](https://github.com/flxf/uCpp.vim).
 
 Syntax definitions for &micro;C++ source code. Automatically highlights `.ucpp` and `.uh` files. (You can also tell Sublime to highlight `.cc` and `.h` files.)
 
@@ -10,6 +9,7 @@ Syntax definitions for &micro;C++ source code. Automatically highlights `.ucpp` 
       * [Method 2: Download the Grammar File](#method-2-download)
       * [(Optional) Set Up Highlighting for `.cc` and `.h` Files](#optional-set-up-highlighting-for-cc-and-h-files)
   * [Usage](#usage)
+  * [References](#references)
 
 # Installation
 Note: this builds off of Sublime's default C++ highlighting, so make sure you haven't destroyed that somehow...
@@ -48,3 +48,7 @@ Now it works with `.cc` and `.h` files too! You can always change it back by res
 
 Open &micro;C++ source code in Sublime, and bask in the overwhelming warmth of its beauty.
 
+# References
+
+- Inspired by [&micro;C++ Syntax Highlighting for Vim](https://github.com/flxf/uCpp.vim)
+- C and C++ language files adapted from [their sublime package](https://github.com/cj/sublime)
