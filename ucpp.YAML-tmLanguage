@@ -6,25 +6,18 @@ fileTypes: [ucpp, uh]
 uuid: 6d5872a5-0367-4387-af71-8f4102f198f0
 
 patterns:
-- include: "#u_special_block"
 - include: source.c++
 
-- comment: ucppConditionals
-  match: \b(_When|and|or)\b
-  name: keyword.control.conditional.ucpp
+- match: \b((and|or)\s+)?(_When|_Accept|_Select|_Timeout)\b
+  captures:
+    '1': {name: keyword.operator.ucpp}
+    '3': {name: keyword.control.ucpp}
 
-- comment: ucppPrimitiveStatement
-  match: \b(_Accept|_Select|_Timeout|_Else)\b
-  name: keyword.control.statement.ucpp
+- match: \b(_Coroutine|_Monitor|_Cormonitor|_PeriodicTask|_RealTimeTask|_SporadicTask|_Task|_Event)\b
+  name: storage.type.ucpp
 
-- comment: ucppConcurrentStructure
-  match: \b(_Coroutine|_Monitor|_Cormonitor|_PeriodicTask|_RealTimeTask|_SporadicTask|_Task|_Event)\b
-  name: storage.type.concurrent.ucpp
+- match: \b(_At|_CatchResume|_Finally|_Disable|_Enable|_Resume|_Throw|_Else)\b
+  name: keyword.control.ucpp
 
-- comment: ucppException
-  match: \b(_At|_CatchResume|_Finally|_Disable|_Enable|_Resume|_Throw)\b
-  name: keyword.control.exception.ucpp
-
-- comment: ucppMutexModifier
-  match: \b(_Mutex|_Nomutex)\b
-  name: storage.modifier.mutex.ucpp
+- match: \b(_Mutex|_Nomutex)\b
+  name: storage.modifier.ucpp

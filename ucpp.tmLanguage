@@ -13,51 +13,42 @@
 	<array>
 		<dict>
 			<key>include</key>
-			<string>#u_special_block</string>
-		</dict>
-		<dict>
-			<key>include</key>
 			<string>source.c++</string>
 		</dict>
 		<dict>
-			<key>comment</key>
-			<string>ucppConditionals</string>
+			<key>captures</key>
+			<dict>
+				<key>1</key>
+				<dict>
+					<key>name</key>
+					<string>keyword.operator.ucpp</string>
+				</dict>
+				<key>3</key>
+				<dict>
+					<key>name</key>
+					<string>keyword.control.ucpp</string>
+				</dict>
+			</dict>
 			<key>match</key>
-			<string>\b(_When|and|or)\b</string>
-			<key>name</key>
-			<string>keyword.control.conditional.ucpp</string>
+			<string>\b((and|or)\s+)?(_When|_Accept|_Select|_Timeout)\b</string>
 		</dict>
 		<dict>
-			<key>comment</key>
-			<string>ucppPrimitiveStatement</string>
-			<key>match</key>
-			<string>\b(_Accept|_Select|_Timeout|_Else)\b</string>
-			<key>name</key>
-			<string>keyword.control.statement.ucpp</string>
-		</dict>
-		<dict>
-			<key>comment</key>
-			<string>ucppConcurrentStructure</string>
 			<key>match</key>
 			<string>\b(_Coroutine|_Monitor|_Cormonitor|_PeriodicTask|_RealTimeTask|_SporadicTask|_Task|_Event)\b</string>
 			<key>name</key>
-			<string>storage.type.concurrent.ucpp</string>
+			<string>storage.type.ucpp</string>
 		</dict>
 		<dict>
-			<key>comment</key>
-			<string>ucppException</string>
 			<key>match</key>
-			<string>\b(_At|_CatchResume|_Finally|_Disable|_Enable|_Resume|_Throw)\b</string>
+			<string>\b(_At|_CatchResume|_Finally|_Disable|_Enable|_Resume|_Throw|_Else)\b</string>
 			<key>name</key>
-			<string>keyword.control.exception.ucpp</string>
+			<string>keyword.control.ucpp</string>
 		</dict>
 		<dict>
-			<key>comment</key>
-			<string>ucppMutexModifier</string>
 			<key>match</key>
 			<string>\b(_Mutex|_Nomutex)\b</string>
 			<key>name</key>
-			<string>storage.modifier.mutex.ucpp</string>
+			<string>storage.modifier.ucpp</string>
 		</dict>
 	</array>
 	<key>scopeName</key>
