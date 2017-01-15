@@ -5,14 +5,12 @@ Syntax definitions for &micro;C++ source code. Automatically highlights `.ucpp` 
 # Contents
   * [Installation](#installation)
       * [Method 1: Clone this Repository](#method-1-clone-this-repository)
-          * [(Optional) Rebuilding the `.tmLanguage` File](#optional-rebuilding-the-tmlanguage-file)
       * [Method 2: Download the Grammar File](#method-2-download)
       * [(Optional) Set Up Highlighting for `.cc` and `.h` Files](#optional-set-up-highlighting-for-cc-and-h-files)
   * [Usage](#usage)
   * [References](#references)
 
 # Installation
-Note: this builds off of Sublime's default C++ highlighting, so make sure you haven't destroyed that somehow...
 
 ## Method 1: Clone this Repository
 1. Open Sublime and navigate to `Preferences > Browse Packages...`. Your Sublime Packages folder should open
@@ -23,16 +21,8 @@ Note: this builds off of Sublime's default C++ highlighting, so make sure you ha
 
 Opening any `.ucpp` or `.uh` file will automatically highlight &micro;C++ source code. If you want Sublime to highlight &micro;C++ source code in `.cc` and `.h` files as well, refer to the [(Optional) Set Up Highlighting for `.cc` and `.h` Files](#optional-set-up-highlighting-for-cc-and-h-files) section.
 
-### (Optional) Rebuilding the `.tmLanguage` File
-You only need to do this if you want to contribute to this project, or to make it easier to make changes to the existing grammar (editing YAML is easier than XML).
-
-1. Install [PackageDev](https://github.com/SublimeText/PackageDev)
-2. Open `ucpp.YAML-tmLanguage` in Sublime
-3. Press `F7` to build. The `.tmLanguage` file will be created/overwritten. Sublime refer to this file when highlighting &micro;C++ source code in `.ucpp` and `.uh` files. (Ensure that `Tools > Build System` is set to `Automatic`)
-4. Edit and Rebuild as desired
-
 ## Method 2: Download
-1. Download and unzip the [latest release](https://github.com/poduncan/ucpp-subl2-syntax/releases/download/v0.3.0/uCpp.zip)
+1. Download and unzip the [latest release](https://github.com/poduncan/ucpp-subl2-syntax/releases/download/v0.4.0/uCpp.zip)
 2. Open Sublime and navigate to `Preferences > Browse Packages...`. Your Sublime Packages folder should open
 4. Move the unzipped `uCpp` folder into the `Packages` folder
 
