@@ -42,3 +42,4 @@ Open &micro;C++ source code in Sublime, and bask in the overwhelming warmth of i
 
 - Inspired by [&micro;C++ Syntax Highlighting for Vim](https://github.com/flxf/uCpp.vim)
 - C and C++ language files adapted from [their sublime package](https://github.com/cj/sublime)
+- &micro;C++ language features taken from the [&micro;C++ Annotated Reference Manual](https://plg.uwaterloo.ca/~usystem/pub/uSystem/uC++.pdf), Version 7.0.0
