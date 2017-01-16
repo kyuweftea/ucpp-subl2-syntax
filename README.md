@@ -1,11 +1,11 @@
 # &micro;C++ Syntax Highlighting for Sublime Text 2
 
-Syntax definitions for &micro;C++ source code. Automatically highlights `.ucpp` and `.uh` files. (You can also tell Sublime to highlight `.cc` and `.h` files.)
+Syntax definitions for &micro;C++ source code. Automatically highlights `.ucpp` and `.uh` files. (You can tell Sublime to highlight `.cc` and `.h` files as well.) Autocompletes some &micro;C++ language constructs.
 
 # Contents
   * [Installation](#installation)
       * [Method 1: Clone this Repository](#method-1-clone-this-repository)
-      * [Method 2: Download the Grammar File](#method-2-download)
+      * [Method 2: Download](#method-2-download)
       * [(Optional) Set Up Highlighting for `.cc` and `.h` Files](#optional-set-up-highlighting-for-cc-and-h-files)
   * [Usage](#usage)
   * [References](#references)
