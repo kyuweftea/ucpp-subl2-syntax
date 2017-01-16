@@ -1,0 +1,6 @@
+<snippet>
+	<description>Time Delay</description>
+    <content><![CDATA[_Timeout ( ${1:/* duration or time */} )${0}]]></content>
+    <tabTrigger>_Timeout</tabTrigger>
+    <scope>source.ucpp, source.objucpp</scope>
+</snippet>

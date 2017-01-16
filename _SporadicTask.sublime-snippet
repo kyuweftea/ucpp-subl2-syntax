@@ -1,0 +1,12 @@
+<snippet>
+	<description>Sporadic Task</description>
+    <content><![CDATA[_SporadicTask ${1:${TM_FILENAME/(.+)\..+|.*/$1/:name}} {
+    ${0:/* data */}
+    void main();
+  public:
+    ${1/(\w+).*/$1/}( ${2:arguments} );
+    ~${1/(\w+).*/$1/}();
+};]]></content>
+    <tabTrigger>_SporadicTask</tabTrigger>
+    <scope>source.ucpp, source.objucpp</scope>
+</snippet>
