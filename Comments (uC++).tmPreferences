@@ -5,7 +5,7 @@
 	<key>name</key>
 	<string>Comments</string>
 	<key>scope</key>
-	<string>source.c, source.c++, source.objc, source.objc++</string>
+	<string>source.ucpp, source.objucpp</string>
 	<key>settings</key>
 	<dict>
 		<key>shellVariables</key>
@@ -37,6 +37,6 @@
 		</array>
 	</dict>
 	<key>uuid</key>
-	<string>38DBCCE5-2005-410C-B7D7-013097751AC8</string>
+	<string>b6aab141-b8b8-4106-a8bb-b4565de8010b</string>
 </dict>
 </plist>
