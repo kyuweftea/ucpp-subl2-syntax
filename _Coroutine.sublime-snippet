@@ -1,12 +1,12 @@
 <snippet>
 	<description>Coroutine</description>
     <content><![CDATA[_Coroutine ${1:${TM_FILENAME/(.+)\..+|.*/$1/:name}} {
-    void main();
+	void main();
   public:
-    ${1/(\w+).*/$1/}( ${2:arguments} );
-    ~${1/(\w+).*/$1/}();
+	${1/(\w+).*/$1/}( ${2:arguments} );
+	~${1/(\w+).*/$1/}();
 
-    ${0:/* data */}
+	${0:/* data */}
 };]]></content>
     <tabTrigger>_Coroutine</tabTrigger>
     <scope>source.ucpp, source.objucpp</scope>
