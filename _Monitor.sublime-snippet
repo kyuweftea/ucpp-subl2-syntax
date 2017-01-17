@@ -1,10 +1,11 @@
 <snippet>
 	<description>Monitor</description>
     <content><![CDATA[_Monitor ${1:${TM_FILENAME/(.+)\..+|.*/$1/:name}} {
-    ${0:/* data */}
   public:
     ${1/(\w+).*/$1/}( ${2:arguments} );
     ~${1/(\w+).*/$1/}();
+
+    ${0:/* data */}
 };]]></content>
     <tabTrigger>_Monitor</tabTrigger>
     <scope>source.ucpp, source.objucpp</scope>
