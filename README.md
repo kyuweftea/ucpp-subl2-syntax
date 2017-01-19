@@ -22,7 +22,7 @@ Syntax definitions for &micro;C++ source code. Automatically highlights `.ucpp` 
 Opening any `.ucpp` or `.uh` file will automatically highlight &micro;C++ source code. If you want Sublime to highlight &micro;C++ source code in `.cc` and `.h` files as well, refer to the [(Optional) Set Up Highlighting for `.cc` and `.h` Files](#optional-set-up-highlighting-for-cc-and-h-files) section.
 
 ## Method 2: Download
-1. Download and unzip the [latest release](https://github.com/poduncan/ucpp-subl2-syntax/releases/download/v0.5.2/uCpp.zip)
+1. Download and unzip the [latest release](https://github.com/poduncan/ucpp-subl2-syntax/releases/download/v0.6.0/uCpp.zip)
 2. Open Sublime and navigate to `Preferences > Browse Packages...`. Your Sublime Packages folder should open
 4. Move the unzipped `uCpp` folder into the `Packages` folder
 
