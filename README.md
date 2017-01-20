@@ -1,6 +1,6 @@
-# &micro;C++ Syntax Highlighting for Sublime Text 2
+# &micro;C++ Syntax Highlighting for Sublime Text
 
-Syntax definitions for &micro;C++ source code. Automatically highlights `.ucpp` and `.uh` files. (You can tell Sublime to highlight `.cc` and `.h` files as well.) Autocompletes some &micro;C++ language constructs.
+Syntax definitions for &micro;C++ source code. Automatically highlights `.ucc`, `.ucpp`, and `.uh` files. (You can tell Sublime to highlight `.cc` and `.h` files as well.) Autocompletes some &micro;C++ language constructs.
 
 # Contents
   * [Installation](#installation)
@@ -19,10 +19,10 @@ Syntax definitions for &micro;C++ source code. Automatically highlights `.ucpp` 
    git clone https://github.com/poduncan/ucpp-subl2-syntax.git
    ```
 
-Opening any `.ucpp` or `.uh` file will automatically highlight &micro;C++ source code. If you want Sublime to highlight &micro;C++ source code in `.cc` and `.h` files as well, refer to the [(Optional) Set Up Highlighting for `.cc` and `.h` Files](#optional-set-up-highlighting-for-cc-and-h-files) section.
+Opening any `.ucc`, `.ucpp`, or `.uh` file will automatically highlight &micro;C++ source code. If you want Sublime to highlight &micro;C++ source code in `.cc` and `.h` files as well, refer to the [(Optional) Set Up Highlighting for `.cc` and `.h` Files](#optional-set-up-highlighting-for-cc-and-h-files) section.
 
 ## Method 2: Download
-1. Download and unzip the [latest release](https://github.com/poduncan/ucpp-subl2-syntax/releases/download/v0.6.0/uCpp.zip)
+1. Download and unzip the [latest release](https://github.com/poduncan/ucpp-subl2-syntax/releases/download/v0.6.1/uCpp.zip)
 2. Open Sublime and navigate to `Preferences > Browse Packages...`. Your Sublime Packages folder should open
 4. Move the unzipped `uCpp` folder into the `Packages` folder
 
