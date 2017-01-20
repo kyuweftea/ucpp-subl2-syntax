@@ -4,6 +4,7 @@
 <dict>
 	<key>fileTypes</key>
 	<array>
+		<string>ucc</string>
 		<string>ucpp</string>
 		<string>uh</string>
 	</array>
