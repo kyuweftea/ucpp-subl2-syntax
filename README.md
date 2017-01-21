@@ -1,6 +1,12 @@
 # &micro;C++ Syntax Highlighting for Sublime Text
 
-Syntax definitions for &micro;C++ source code. Automatically highlights `.ucc`, `.ucpp`, and `.uh` files. (You can tell Sublime to highlight `.cc` and `.h` files as well.) Autocompletes some &micro;C++ language constructs.
+Language definitions for &micro;C++ source code.
+
+- highlights `.ucc`, `.ucpp`, and `.uh` files (other extensions like `.cc` and `.h` are available options)
+- autocompletes &micro;C++ language constructs
+- support for &micro;C++ type specifiers ( `_Coroutine`, `_Event`, `_Task`, ... )
+- support for &micro;C++ control flow keywords ( `_Accept`, `_Select`, `_When`, ... )
+- support for &micro;C++ exception handling ( `_Resume`, `_Finally`, `_Enable`, ... )
 
 # Contents
   * [Installation](#installation)
